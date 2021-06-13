@@ -272,6 +272,14 @@ header .navigation li a{
     font-size: 35px;
 }
 
+#beneficios{
+    color: #3C4F76;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: -70px;
+    text-align: center;
+}
+
 
 .box-part span{
     font-size:15px;
