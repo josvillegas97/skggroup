@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 2500) {
+        if ($(this).scrollTop() > 3550) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();
@@ -15,6 +15,8 @@ $(document).ready(function() {
         }, 900);
         return false;
     });
+
+    
 });
 
 setTimeout(function(){

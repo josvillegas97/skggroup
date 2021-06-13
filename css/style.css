@@ -87,7 +87,7 @@
 .sec{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 40vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,6 +108,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid rgb(249, 250, 250);
 }
 header .logo{
     font-size: 2em;
@@ -222,6 +223,9 @@ header .navigation li a{
         width: 10%;
         height: 15%;
     }
+    header .logo{
+        margin-left: 40%;
+    }
 }
 
 @media (max-width: 1269px)
@@ -312,6 +316,7 @@ header .navigation li a{
      color:#192B42;
 }
 
+
 #inicios{
     margin-top: -500px;
     
@@ -374,7 +379,7 @@ header .navigation li a{
 }
 
 #titleinfo{
-    margin-top: -550px;
+    margin-top: -150px;
     color: #3C4F76;
     text-align: center;
     font-weight: bold;
@@ -406,6 +411,10 @@ header .navigation li a{
     text-decoration: none;
     color: #3C6E71;
     font-weight: bold;
+}
+
+#vermasl:hover{
+    color: #2e5456;
 }
 .logos{
     align-items: center;
@@ -439,6 +448,10 @@ header .navigation li a{
     border-color: #3C4F76;
 }
 
+.ora:hover{
+    color: #97bbeb;
+}
+
 .socials{
     list-style: none;
     display: flex;
@@ -470,7 +483,7 @@ header .navigation li a{
     margin-top: 5px;
 }
 .socials a:hover i{
-    color: #192B42;
+    color: #97bbeb;
 }
 
 .container-footer{
