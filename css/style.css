@@ -527,123 +527,69 @@ header .navigation li a{
 
 
 
-.container{
-    z-index: 12;
-    max-width: 1050px;
-    width: 100%;
-    background: #fff;
-    border-radius: 12px;
-    margin: 0 20px;
-  }
-  .container .content{
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px 20px;
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
   }
   
-  .content .topic{
-    font-size: 22px;
-    font-weight: 500;
-    color: #434750;
-  }
-  .content form{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50%;
-  }
-  .content .input-box{
-    height: 50px;
-    width: 100%;
-    margin: 16px 0;
+  .contact-form .form-field {
     position: relative;
+    margin: 32px 0;
   }
-  .content .input-box input{
-    position: absolute;
-    height: 100%;
+  .contact-form .input-text {
+    display: block;
     width: 100%;
-    border-radius: 6px;
-    font-size: 16px;
-    outline: none;
-    padding-left: 16px;
-    background: #fae9fb;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-  }
-  .content .input-box input:focus,
-  .content .input-box input:valid{
-    border-color: #434750;
-    background-color: #fff;
-  }
-  .content .input-box label{
-    position: absolute;
-    left: 18px;
-    top: 50%;
-    color: #636c72;
-    font-size: 15px;
-    pointer-events: none;
-    transform: translateY(-50%);
-    transition: all 0.3s ease;
-  }
-  .content .input-box input:focus ~ label,
-  .content .input-box input:valid ~ label{
-    top: 0;
-    left: 12px;
-    display: 14px;
-    color: #434750;
-    background: #fff;
-  }
-  .content .message-box{
-    min-height: 100px;
-    position: relative;
-    margin-top: 25px;
-  }
-  .content .message-box textarea{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    resize: none;
-    background: #fae9fb;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    outline: none;
-    transition: all 0.3s ease;
-  }
-  .content .message-box textarea:focus,
-  .content -message-box textarea:valid{
-    border-color: #434750;
-    background-color: #fff;
-  }
-  .content .message-box label{
-    position: absolute;
-    font-size: 16px;
-    color: #636c72;
-    left: 18px;
-    top: 6px;
-    pointer-events: none;
-    transition: all 0.3s ease;
-  }
-  .content .message-box textarea:focus ~ label,
-  .content .message-box textarea:valid ~ label{
-    left: 12px;
-    top: -20px;
-    color: #434750;
-    font-size: 14px;
-    background: #fff;
-  }
-  .content .input-box input[type="submit"]{
-    color: #fff;
-    background: #434750;
-    padding-left: 0;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #3C4F76;
     font-size: 18px;
-    font-weight: 500;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 13px;
+    bottom: 30px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #3C4F76;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #3C4F76;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
     cursor: pointer;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
+    margin-left: 36%;
+    border-radius: 25px;
   }
-  .content .input-box input[type="submit"]:hover{
-    background-color: #d43ddb;
+
+  .submit-btn:hover{
+      color: #7f8ba2;
   }
+
 
 
   @media (max-width: 580px)
