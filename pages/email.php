@@ -11,7 +11,7 @@ $headers = "From: josvillegas@upeu.edu.pe" . "\r\n" .
 "CC: somebyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
-    header("index.html");
+    header("Location:../index.html");
 }
 //redirect
 //
